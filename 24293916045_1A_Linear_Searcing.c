@@ -35,7 +35,7 @@ int main(){
     generate_random_array(array,n);
 
     clock_t start=clock();
-    //for (int i=0; i<1000; i++){  
+    //for (int i=0; i<1000; i++){   // removed loop
         linear_search(array, n, value);
     //}
     clock_t end=clock();
